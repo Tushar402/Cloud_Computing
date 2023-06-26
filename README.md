@@ -154,5 +154,7 @@ Now we will deploy the react application for user interaction using docker.
 1. First create a Docker file without any extension and add these commands to Docker
 file:
 
+![frnt1](https://github.com/Tushar402/Cloud_Computing/assets/26556525/0c04772c-c0ee-4036-883c-bb1523f59519)
+
 This command will initiate node package and install necessary packages from
 package.json file
