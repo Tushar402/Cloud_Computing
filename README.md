@@ -126,3 +126,19 @@ kubectl logs web-server-75b8b9d457-spqnt
 
 ![kubr2](https://github.com/Tushar402/Cloud_Computing/assets/26556525/9628eb83-90a7-4bf1-9783-d014e7e6a5fd)
 
+10. We already have the pods, but this pod cannot be accessed from the public internet. So, we
+need to expose it using services. So, we create a service using kubectl using the expose
+deployment command and the name of the deployment, which is web server and type, that is Load
+balancer, and after that, we need to map our ports. Here we put our port 8080 and also our targeted
+port 8080.
+
+```bash
+kubectl expose deployment web-server --type LoadBalancer --port 8080 --target-port 8080
+
+```
+2. We use the command for the external IP. Below the screenshot we
+can see that our external IP is generated.
+
+```bash
+kubectl get services -w
+```
