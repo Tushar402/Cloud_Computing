@@ -182,3 +182,55 @@ we use the ‘docker push’ command.
 ```bash
 docker push tonmoy002/ppmtclient:3
 ```
+
+Now our docker image is ready to deploy to google cloud.
+<img width="1436" alt="dckr2f" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/7e140420-1858-4077-ba93-57a97e92cd68">
+
+Initially, we created a dummy Google Cloud project and named it PPMT-CLIENT. Open the cloud
+shell and set up the basic needs:
+
+1. First, we opened the cloud shell and by the following command, we
+Check the configuration list.
+```bash
+gcloud config list
+```
+2. Now we have to update the server zone before creating the Kubernetes cluster same as before. For this
+we use the following command.
+```bash
+gcloud config set computer/zone us-centrall-a
+```
+
+3. After updating the server zone, we enable the Kubernetes API engine from that particular
+project. Then we run the following command to create the cluster.
+```bash
+gcloud container clusters create my-cluster –-num-nodes=1
+
+```
+4. Now we need the credential of the cluster to deploy it on google cloud. By using the
+the following command, we get the cluster credentials.
+
+```bash
+gcloud container clusters get-credentials my-cluster
+
+```
+5. Now our cluster is ready for deployment using Kubectl. So, we use the command.
+```bash
+kubectl create deployment web-server –image=docker.io/tonmoy002/ppmtclient:3 
+```
+
+After that, we can see that our deployment is created successfully.
+
+6. For checking the deployment status, we use “kubectl get deployments” command and
+see the credentials.
+7. Now we use “kubectl get pods” to get the pod credentials which is needed to check the
+logs.
+8. We already have the pod name so we can easily check the react log status using
+“kubectl logs”
+
+9. We have the pods, but this pod cannot be accessed from the public internet. So, we need
+to expose it using services. So, we create a service using kubectl using the expose deployment
+command and the name of the deployment which is webserver and type that is Load Balancer
+after that we need to map our ports. Here we put our port 3000 and also our targeted port is 3000.
+
+10. Now we successfully deployed our frontend to google cloud. For further use we need the
+external IP. For this we use “kubectl get services -w” command and our external IP is created.
