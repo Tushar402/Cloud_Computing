@@ -240,3 +240,7 @@ kubectl expose deployment web-server --type LoadBalancer --port 3000 --target-po
 10. Now we successfully deployed our frontend to google cloud. For further use we need the
 external IP. For this we use **“kubectl get services -w”** command and our external IP is created.
 
+![kubr3](https://github.com/Tushar402/Cloud_Computing/assets/26556525/04e5b6a7-58b5-4c2c-b7a8-e2b5c42286fa)
+
+From the screenshot we get our external IP 35.224.212.242, and our port is 3000. So now anyone can
+easily get our services by using the IP address and port. Here is our final IP address.
