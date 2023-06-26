@@ -93,3 +93,11 @@ gcloud config set compute/zone us-centrall-a
 gcloud container clusters my-cluster –num-nodes=1
 
 ```
+4. Now our cluster is ready, and we want to deploy our project to this cluster. We are now
+able to get the credentials for interacting with this cluster using kubectl. To do this we use
+the command below.
+
+```bash
+gcloud container clusters get-credentials my-cluster
+
+```
