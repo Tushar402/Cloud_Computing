@@ -46,6 +46,7 @@ docker push tonmoy002/ppmtapi:5
 ```
 6. We can see that our docker image was successfully uploaded to our docker hub account and no
 issue occurs.
+
 <img width="1432" alt="dckr1" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/45d1d1fb-ec97-4da1-b142-dff405c51bd0">
 
 #### Google Cloud Account
@@ -64,4 +65,5 @@ comprises a set of worker nodes. As the smallest deployable unit on the nodes, t
 orchestrates so-called pods. One or more containers are contained in each pod. The master node's storage and network resources are shared by these containers. Each container has its own set of
 instructions about how to execute it. They have a unique IP address that they use to access the
 pod. However, each time a pod fails, a new one must be produced, along with a new IP address.
+
 ![kubernetes1](https://github.com/Tushar402/Cloud_Computing/assets/26556525/a308dd25-5444-48ea-a70d-a83628e64809)
