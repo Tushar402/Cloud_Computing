@@ -246,4 +246,7 @@ From the screenshot we get our external IP 35.224.212.242, and our port is 3000.
 easily get our services by using the IP address and port. Here is our final IP address.
 
 11. Form the google cloud account We can see the overview status of our Kubernetes cluster.
-        
+<img width="1437" alt="status" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/2c8ab66c-eb9a-4d17-923d-206611e29710">
+
+12. From the cluster we can see the Node status. We have only one node because our project is small.
+
