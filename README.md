@@ -147,3 +147,12 @@ Below the screenshot, we can see that our external IP is generated.
 
 By using this external IP address, we can see that our pod is running our application which has a
 controller that returns the services of the application.
+
+#### Frontend Deployment
+Now we will deploy the react application for user interaction using docker.
+
+1. First create a Docker file without any extension and add these commands to Docker
+file:
+
+This command will initiate node package and install necessary packages from
+package.json file
