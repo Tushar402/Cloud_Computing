@@ -9,3 +9,12 @@ Finally, with the help of Kubernetes, Successfully deployed the project to the G
 The backbone of the system architecture is the Kubernetes cluster, which deploys the Docker container to Google Cloud. I have used GitHub as a source control repository and Docker Hub as a container repository. First, I pull the git project from the local machine and then create a local Docker image using Docker from the spring boot application. Then push the local docker image (Backend) and docker image (Frontend) to the docker hub and then from the google cloud platform using the Google Kubernetes engine. I can run the docker image as a container in the Kubernetes cluster. The high-level system architecture is illustrated in Figure 1.
 ![Capture](https://github.com/Tushar402/Cloud_Computing/assets/26556525/9168ea8a-3cc8-4105-a9da-34b7d949af38)
 ## 3.	Deployment
+### Docker
+Docker uses a client-server architecture. The Docker client connects to the Docker host, which can
+build, run, and distribute Docker containers. The Docker client and Docker host can run on the
+same system. Then it can easily push to the docker hub. Docker is free and open-source
+platform for creating, delivering, and operating applications. Docker allows to separate the
+application from the infrastructure which allows to manage the infrastructure in the same
+manner that I can control the applications. It helps to minimize the time between writing
+code and executing it by utilizing Docker's methodology for fast implementation, testing, and
+deploying code for the project.
