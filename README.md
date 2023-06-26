@@ -25,5 +25,13 @@ commands on the terminal for creating the docker image.
 ```bash
   mvnw spring-boot:build-image
 ```
-
-
+2. After creating the docker image we check the images of our project by running the following
+command.
+```bash
+  docker images
+```
+3. Now we create a Docker hub account to push the local Docker image into the Docker hub. Login
+to docker hub by providing credentials using the following commands.
+´´´bash
+docker login
+´´´
