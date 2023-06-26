@@ -87,3 +87,9 @@ to use the command.
 gcloud config set compute/zone us-centrall-a
 
 ```
+3. Now we are ready to create our container cluster. For creating the container cluster, we use the command and set the number of nodes is 1. Because our project is small so one node is enough for the project.
+
+```bash
+gcloud container clusters my-cluster –num-nodes=1
+
+```
