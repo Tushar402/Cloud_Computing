@@ -157,4 +157,28 @@ file:
 ![frnt1](https://github.com/Tushar402/Cloud_Computing/assets/26556525/0c04772c-c0ee-4036-883c-bb1523f59519)
 
 This command will initiate node package and install necessary packages from
-package.json file
+package.json file.
+
+2. After the necessary package installation, we build an image file using the command in
+docker:
+
+
+```bash
+docker build -t tonmoy002/ppmtclient
+```
+
+3. We Check the Docker images were created successfully with the following command:
+```bash
+docker images
+```
+
+4. Now we need the image tag ID to push the Docker image into the Docker hub. By using the
+commend we get the tag id.
+```bash
+docker tag a34a1920b06c tonmoy002/ppmtclient:3
+```
+5. Now we have the tag id and need to push it to docker hub. To upload our docker image
+we use the ‘docker push’ command.
+```bash
+docker push tonmoy002/ppmtclient:3
+```
