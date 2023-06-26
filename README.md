@@ -20,7 +20,7 @@ code and executing it by utilizing Docker's methodology for fast implementation,
 deploying code for the project.
 ![Docker](https://github.com/Tushar402/Cloud_Computing/assets/26556525/e023221d-a1f8-47e9-ab37-763bd6bcda47)
 #### Docker Image Create (Backend)
-1. First install Docker on the local machine. Opened the project folder and run the following
+1. First install Docker on the local machine. Open the project folder on the terminal and run the following
 commands on the terminal for creating the docker image.
 ```bash
   mvnw spring-boot:build-image
