@@ -54,3 +54,13 @@ issue occurs.
 respectively.
 3. Created Database instance in PPMT project named ppmtdb and created database name:
 ppmt
+
+#### Kubernetes
+Kubernetes is a portable and scalable open-source platform which manage the container-based
+applications and services. It is a container orchestration system that organizes computer, network,
+and storage infrastructure. The master and node components are the most important parts of
+Kubernetes. The Kubernetes cluster is controlled and managed by the master node, which also
+comprises a set of worker nodes. As the smallest deployable unit on the nodes, the system
+orchestrates so-called pods. One or more containers are contained in each pod. The master node's storage and network resources are shared by these containers. Each container has its own set of
+instructions about how to execute it. They have a unique IP address that they use to access the
+pod. However, each time a pod fails, a new one must be produced, along with a new IP address.
