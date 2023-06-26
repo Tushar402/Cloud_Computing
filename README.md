@@ -72,7 +72,10 @@ pod. However, each time a pod fails, a new one must be produced, along with a ne
 1. We already have the docker image in the docker hub. Now we want to run our application as a
 pod in Kubernetes. For this, we first create a dummy project named PPMT on google cloud and
 open cloud shell. This cloud shell allows us to create resources and interact using this shell. First
-we check the configuration list by using the command ```bash
+we check the configuration list by using the command.
+
+```bash
 gcloud config list
+
 ```
  and see we are assigned and we have a project.
