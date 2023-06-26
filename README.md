@@ -112,4 +112,14 @@ kubectl create deployment web-server --image=docker.io/tonmoy002/ppmtapi:5
 kubectl get deployments
 ```
 
-7. For checking the pods status we use ‘kubectl get pods’ command.
+7. For checking the pods status we use the following command.
+
+```bash
+kubectl get pods
+```
+8.Now we check the spring boot logs status by using the below command.
+
+```bash
+kubectl logs web-server-75b8b9d457-spqnt
+```
+9. After successfully running the application, it will show a status.
