@@ -43,5 +43,6 @@ docker tag 4652b5678ce1 tonmoy002/ppmtapi:5
 5. Now we push our docker image into the docker hub using the tag by the following command.
 ```bash
 docker push tonmoy002/ppmtapi:5
-```   
-   
+```
+6. We can see that our docker image successfully uploaded to our docker hub account and no
+issue occurs.
