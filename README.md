@@ -47,6 +47,7 @@ docker push tonmoy002/ppmtapi:5
 6. We can see that our docker image was successfully uploaded to our docker hub account and no
 issue occurs.
 <img width="1432" alt="dckr1" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/45d1d1fb-ec97-4da1-b142-dff405c51bd0">
+
 #### Google Cloud Account
 1. Create google cloud account.
 2. Created two new projects on Google cloud named PPMT and PPMT-CLIENT
