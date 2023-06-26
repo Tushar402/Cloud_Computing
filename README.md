@@ -220,12 +220,12 @@ kubectl create deployment web-server –image=docker.io/tonmoy002/ppmtclient:3
 
 After that, we can see that our deployment is created successfully.
 
-6. For checking the deployment status, we use “kubectl get deployments” command and
+6. For checking the deployment status, we use **“kubectl get deployments”** command and
 see the credentials.
-7. Now we use “kubectl get pods” to get the pod credentials which is needed to check the
+7. Now we use **“kubectl get pods”** to get the pod credentials which is needed to check the
 logs.
 8. We already have the pod name so we can easily check the react log status using
-“kubectl logs”
+**“kubectl logs”**
 
 9. We have the pods, but this pod cannot be accessed from the public internet. So, we need
 to expose it using services. So, we create a service using kubectl using the expose deployment
@@ -233,4 +233,4 @@ command and the name of the deployment which is webserver and type that is Load 
 after that we need to map our ports. Here we put our port 3000 and also our targeted port is 3000.
 
 10. Now we successfully deployed our frontend to google cloud. For further use we need the
-external IP. For this we use “kubectl get services -w” command and our external IP is created.
+external IP. For this we use **“kubectl get services -w”** command and our external IP is created.
