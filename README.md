@@ -101,3 +101,15 @@ the command below.
 gcloud container clusters get-credentials my-cluster
 
 ```
+5. Now we can use kubeclt and want to create a deployment using the image that we created. For
+creating deployment of the web server, we use the following command
+
+```bash
+kubectl create deployment web-server --image=docker.io/tonmoy002/ppmtapi:5
+```
+6. Now we can get the deployment information with the following command:
+```bash
+kubectl get deployments
+```
+
+7. For checking the pods status we use ‘kubectl get pods’ command.
