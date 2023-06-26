@@ -136,9 +136,9 @@ port 8080.
 kubectl expose deployment web-server --type LoadBalancer --port 8080 --target-port 8080
 
 ```
-2. We use the command for the external IP. Below the screenshot we
-can see that our external IP is generated.
+2. We use the following command for the external IP. 
 
 ```bash
 kubectl get services -w
 ```
+Below the screenshot we can see that our external IP is generated.
