@@ -22,7 +22,5 @@ deploying code for the project.
 #### Docker Image Create (Backend)
 1. First install Docker on the local machine. Opened the project folder and run the following
 commands on the terminal for creating the docker image.
-´´´command
-mvnw spring-boot:build-image
+´mvnw spring-boot:build-image´
 
-´´´
