@@ -83,7 +83,7 @@ gcloud config list
 2. Now we need to set our zone before we create our cluster for Kubernetes. To do that we have
 to use the command.
 
-````bash
+```bash
 gcloud config set compute/zone us-centrall-a
 
 ```
