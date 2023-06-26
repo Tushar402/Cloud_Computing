@@ -244,3 +244,6 @@ external IP. For this we use **“kubectl get services -w”** command and our e
 
 From the screenshot we get our external IP 35.224.212.242, and our port is 3000. So now anyone can
 easily get our services by using the IP address and port. Here is our final IP address.
+
+11. Form the google cloud account We can see the overview status of our Kubernetes cluster.
+        
