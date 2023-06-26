@@ -1,4 +1,4 @@
-# Cloud_Computing (Deploying Web application to Google Cloud.)
+# Cloud_Computing ( Web application Deployment to Google Cloud.)
 ## 1. Project Overview
 For the initial deployment of the web application to Google Cloud, I used Docker and created a Docker container. The Docker container mainly helps to pack up the project code, Dependencies, and configuration from the local machine. By using Docker, the project runs smoothly and performs similarly on the cloud server as on the local machine, without any uncertainty occurring.
 
