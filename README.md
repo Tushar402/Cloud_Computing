@@ -18,3 +18,4 @@ application from the infrastructure which allows to manage the infrastructure in
 manner that I can control the applications. It helps to minimize the time between writing
 code and executing it by utilizing Docker's methodology for fast implementation, testing, and
 deploying code for the project.
+![Docker](https://github.com/Tushar402/Cloud_Computing/assets/26556525/e023221d-a1f8-47e9-ab37-763bd6bcda47)
