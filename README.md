@@ -32,6 +32,6 @@ command.
 ```
 3. Now we create a Docker hub account to push the local Docker image into the Docker hub. Login
 to docker hub by providing credentials using the following commands.
-´´´bash
+```bash
 docker login
-´´´
+```
