@@ -31,7 +31,11 @@ command.
   docker images
 ```
 3. Now we create a Docker hub account to push the local Docker image into the Docker hub. Login
-to docker hub by providing credentials using the following commands.
+to the docker hub by providing credentials using the following commands.
 ```bash
 docker login
 ```
+4. Now we need to tag a docker image before we push it into the docker hub. For this, we need the ID
+of our docker image give a name and tag it by 5 by using the following command.
+```bash
+docker tag 4652b5678ce1 tonmoy002/ppmtapi:5```
