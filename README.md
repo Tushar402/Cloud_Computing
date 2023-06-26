@@ -248,5 +248,9 @@ easily get our services by using the IP address and port. Here is our final IP a
 11. Form the google cloud account We can see the overview status of our Kubernetes cluster.
 <img width="1437" alt="status" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/2c8ab66c-eb9a-4d17-923d-206611e29710">
 
-12. From the cluster we can see the Node status. We have only one node because our project is small.
+12. From the cluster, we can see the Node status. We have only one node because our project is small.
+<img width="1438" alt="pods" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/889b1956-1940-4263-be88-0f1a8e5cda38">
 
+#### Final Outcome
+Finally, we are able to deploy our application on google cloud platform (GCP) using dockers and
+Kubernetes. We further went ahead to integrate with Docker and Kubernetes. We did validations and performance testing to check our deployment. The test results were tremendous as services could be redirected by our gateway.
