@@ -64,3 +64,4 @@ comprises a set of worker nodes. As the smallest deployable unit on the nodes, t
 orchestrates so-called pods. One or more containers are contained in each pod. The master node's storage and network resources are shared by these containers. Each container has its own set of
 instructions about how to execute it. They have a unique IP address that they use to access the
 pod. However, each time a pod fails, a new one must be produced, along with a new IP address.
+![kubernetes1](https://github.com/Tushar402/Cloud_Computing/assets/26556525/a308dd25-5444-48ea-a70d-a83628e64809)
