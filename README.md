@@ -254,3 +254,10 @@ easily get our services by using the IP address and port. Here is our final IP a
 #### Final Outcome
 Finally, we are able to deploy our application on google cloud platform (GCP) using dockers and
 Kubernetes. We further went ahead to integrate with Docker and Kubernetes. We did validations and performance testing to check our deployment. The test results were tremendous as services could be redirected by our gateway.
+
+<img width="1434" alt="final" src="https://github.com/Tushar402/Cloud_Computing/assets/26556525/4e66c6fc-bd2f-492d-942d-7acd76b4ff6e">
+
+To summarize, This readme file explored docker container deployment using Kubernetes cluster to Google Cloud
+Platform (GCP) and our methodologies for doing so. It contains detailed instructions for
+configuring and installing the required tools and services. Finally, we went over the deployment,
+testing methods and reviewed the results of the deployments.
