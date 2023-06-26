@@ -38,4 +38,5 @@ docker login
 4. Now we need to tag a docker image before we push it into the docker hub. For this, we need the ID
 of our docker image give a name and tag it by 5 by using the following command.
 ```bash
-docker tag 4652b5678ce1 tonmoy002/ppmtapi:5```
+docker tag 4652b5678ce1 tonmoy002/ppmtapi:5
+```
