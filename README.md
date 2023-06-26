@@ -119,11 +119,10 @@ kubectl get pods
 ```
 8.Now we check the spring boot logs status by using the below command.
 
-![kubr2](https://github.com/Tushar402/Cloud_Computing/assets/26556525/9628eb83-90a7-4bf1-9783-d014e7e6a5fd)
-
-
-
 ```bash
 kubectl logs web-server-75b8b9d457-spqnt
 ```
 9. After successfully running the application, it will show a status.
+
+![kubr2](https://github.com/Tushar402/Cloud_Computing/assets/26556525/9628eb83-90a7-4bf1-9783-d014e7e6a5fd)
+
