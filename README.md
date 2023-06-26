@@ -64,6 +64,15 @@ Kubernetes. The Kubernetes cluster is controlled and managed by the master node,
 comprises a set of worker nodes. As the smallest deployable unit on the nodes, the system
 orchestrates so-called pods. One or more containers are contained in each pod. The master node's storage and network resources are shared by these containers. Each container has its own set of
 instructions about how to execute it. They have a unique IP address that they use to access the
-pod. However, each time a pod fails, a new one must be produced, along with a new IP address.
+pod. However, each time a pod fails, a new one must be produced, along with a new IP address which is shown in the figure.
 
 ![kubernetes1](https://github.com/Tushar402/Cloud_Computing/assets/26556525/a308dd25-5444-48ea-a70d-a83628e64809)
+
+#### Kubernetes Implementation
+1. We already have the docker image in the docker hub. Now we want to run our application as a
+pod in Kubernetes. For this, we first create a dummy project named PPMT on google cloud and
+open cloud shell. This cloud shell allows us to create resources and interact using this shell. First
+we check the configuration list by using the command ```bash
+gcloud config list
+```
+ and see we are assigned and we have a project.
